@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #2471A3;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="rentalmobilfx.FXMLDocumentController">
+   <children>
+      <Label layoutX="174.0" layoutY="75.0" text="Nama">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField layoutX="310.0" layoutY="76.0" />
+      <Label layoutX="174.0" layoutY="117.0" text="NIK">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField layoutX="311.0" layoutY="118.0" />
+      <Label layoutX="174.0" layoutY="164.0" text="Alamat">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField layoutX="311.0" layoutY="165.0" />
+      <Label layoutX="174.0" layoutY="210.0" text="No Telp">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField layoutX="311.0" layoutY="211.0" />
+      <Label layoutX="174.0" layoutY="265.0" text="Email">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField layoutX="311.0" layoutY="266.0" />
+   </children>
+</AnchorPane>
